@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "something"
+author = "Brian Okken"
+author-email = "brian+pypi@pythontest.com"
+home-page = "https://github.com/okken/something"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
